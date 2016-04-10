@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<body background=“image3.jpg”>
+<center>
+<h1>WELCOME</h1>
+
+
+<a href=“page2.html”> Go to Next Page</a>
+
+
+
+</center>
+</body>
+</html>
