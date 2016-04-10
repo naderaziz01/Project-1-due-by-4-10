@@ -15,12 +15,45 @@ p {
     font-family: "Times New Roman";
     font-size: 20px;
 }
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
 </style>
 </head>
 <body>
 
 <h1>SCENERIES</h1>
 
+<div class="img">
+  <a target="_blank" href=“image1.jpg”>
+    <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  <div class="desc">Scenery 1</div>
+</div>
 
+<div class="img">
+  <a target="_blank" href=“image2.jpg”>
+    <img src=“image2.jpg” alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Scenery 2</div>
+</div>
 </body>
 </html>
