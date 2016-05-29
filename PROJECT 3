@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> AUTOMOTIVE DEALERS </title>
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="container">
+<div id="header">
+<h1 align="center">AUTOMOTIVE DEALERS </center></h1>
+</div>
+<ul class="menu">
+<li><a href="index.html"> Main Page </a></li>
+<li><a href="page1.html"> CARS </a></li>
+<li><a href="page2.html"> BIKES </a></li>
+<li><a href="page3.html"> ABOUT US </a></li>
+
+</ul>
+<div class="search text-right"> <input type="text" placeholder="search"></div>
+
+    <p>
+<img src="cars.jpg" alt="Sports" onmouseover="largeImage(this)" onmouseout="actualImage(this)" style="width:300px;height:300px">
+<img src="suv" alt="SUV" onmouseover="largeImage(this)" onmouseout="actualImage(this)" style="width:300px;height:300px">
+<img src="sedan.jpg" alt="Sedan" onmouseover="largeImage(this)" onmouseout="actualImage(this)" style="width:300px;height:300px">
+<img src="bike.jpg" alt="Bike" onmouseover="largeImage(this)" onmouseout="actualImage(this)" style="width:300px;height:300px">
+</p> 
+    <script>
+        function largeImage(x) {
+            x.style.height = "300px";
+            x.style.width = "300px";
+        }
+
+        function actualImage(x) {
+            x.style.height = "300px";
+            x.style.width = "300px";
+        }
+    </script> 
+<div id="footer" class="footer">
+Copyright © Naderaziz
+</div>
+</div>
+
+</body>
+</html>
+
